@@ -149,7 +149,7 @@ class ConnectFour:
         won = False
         player = ConnectFour.PLAYER1
         
-        # also handle draws besides wins...
+
         while not won:
             print("Player {:d}'s move".format(player))
             if player == ConnectFour.PLAYER1:
@@ -160,12 +160,10 @@ class ConnectFour:
                 sleep(.75)
                 col = self._computerMakeMove()
                 
-            # LAB 11: After implementing the makeMove method above,
-            # uncomment the next two lines and test your program
+           
             row = self.makeMove(player, col)
             self.showBoard()
 
-            # EC TODO: 
             won = self._isWon(row, col)
             if won==True:
                 whichplayer= self._board[row][col]
