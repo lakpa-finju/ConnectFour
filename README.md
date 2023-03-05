@@ -10,7 +10,7 @@ Connect Four is a multiplayer game that allows computer and user to play against
 5. Keep playing until the game is over. The program will close itself when there are 4 blocks of the same color horizontally, vertically or diagonally.  
 
 ## Some snapshots of the game
-![Connect four](/snapshots/connectFour1.png)
+![Connect four](./snapshots/connectFour1.png)
 ![Connect Four](./snapshots/connectFour2.png)
 ![Connect Four](./snapshots/connectFour3.png)
 ![Connect Four](./snapshots/connectFour4.png)
